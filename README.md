@@ -11,6 +11,11 @@ A modern, responsive login page design featuring biometric (fingerprint) authent
 - Animated fingerprint icon
 - Google Fonts and Font Awesome integration
 
+## Live Demo
+[View on GitHub Pages](https://shahriartbc.github.io/Ai_Generated_Calculator/)
+
+
+
 ## Demo
 
 Desktop View:
