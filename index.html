@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page Design With Biometrics </title>
-  <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page Design With Biometrics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-</head>
-<body>
-    <div class="Login"></div>
-    <h2>Hello!</h2>
-</body>
+  </head>
+  <body>
+    <div class="Login">
+      <form>
+        <h2>
+          Hello!<br />
+          <span>Welome Back</span>
+        </h2>
+        <div class="inputBox">
+          <input type="text" placeholder="Username" required />
+          <i class="fa-regular fa-user"></i>
+        </div>
+        <div class="inputBox">
+          <input type="password" placeholder="Password" required />
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <lable> <input type="checkbox" /> Keep me logged in </lable>
+        <div class="inputBox">
+          <input type="submit" value="Login" />
+        </div>
+      </form>
+      <h4>OR</h4>
+      <div class="fingerprint">
+        <div class="fingerprintBox">
+          <img src="img/fingerprint.png" alt="" />
+        </div>
+        <p>Login With Fingerprint</p>
+      </div>
+    </div>
+  </body>
 </html>
