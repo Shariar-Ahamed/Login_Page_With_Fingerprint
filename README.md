@@ -12,7 +12,7 @@ A modern, responsive login page design featuring biometric (fingerprint) authent
 - Google Fonts and Font Awesome integration
 
 ## Live Demo
-[View on GitHub Pages](https://shahriartbc.github.io/Login_Page_With_Fingerprint/)
+[View on GitHub Pages](https://shariar-ahamed.github.io/Login_Page_With_Fingerprint/)
 
 
 
@@ -28,7 +28,7 @@ Mobile View:
 
 1. **Clone the repository:**
    ```powershell
-   git clone https://github.com/ShahriarTbc/Login_Page_With_Fingerprint.git
+   git clone https://github.com/shariar-ahamed/Login_Page_With_Fingerprint.git
    ```
 2. **Navigate to the project folder:**
    ```powershell
